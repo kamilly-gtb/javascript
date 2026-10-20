@@ -140,20 +140,20 @@ let numero2 = 12
 if (numero1 > numero2){
     console.log("o primeiro numero é maior")
 }else if(numero2 > numero1){
-    console.log(" O segundo numero é maior")
+    console.log("O segundo numero é maior")
 }else{
     console.log("empate")
 }
 
 //receber dois numeros
 
-let numero= 10 + 10
+let numero = 10
 //verificar se é maior,igual ou menor que 10
 if(numero >=12){
     console.log(" maior!")
 
     //senão se os numero forem iguais
-}else if (numero === 10 + 10 ){
+}else if (numero === 10 ){
     console.log("empate!")
 
 }else{
@@ -167,7 +167,7 @@ if(numero >=12){
 let senha="senai123"
 
 if(senha === "senai123"){
-    console.log("acesso autorizadpo!")
+    console.log("acesso autorizado!")
 
 }else{
     console.log("senha incorreta!")
@@ -189,3 +189,110 @@ if(grau <= 18){
 }
 
 // 5: classificação de nota
+
+let nota = 6
+
+if(nota >= 9){
+    console.log("excelente")
+}else if(nota >= 7){
+    console.log("bom")
+}else if(nota >= 5){
+    console.log("regular")
+}else{
+    console.log("insuficiente")
+}
+
+// 6: dia da semana
+
+let dia = 5
+ if(dia == 1){
+    console.log("domingo")
+ }else if(dia == 2){
+    console.log("segunda-feira")
+ }else if(dia == 3){
+    console.log("terça-feira")
+ }else if(dia == 4){
+    console.log("quarta-feira")
+ }else if(dia == 5){
+    console.log("quinta-feira")
+ }else if(dia == 6){
+    console.log("sexta-feira")
+ }else if(dia == 7){
+    console.log("sabado")
+ }else{
+    console.log("dia invalido")
+ }
+
+ let idadeDirigir = 19;
+ let temCNH = true;
+ let temCarro = false;
+
+ if(idadeDirigir >= 18 && temCNH == true && temCarro == true){
+    console.log("você pode dirigir!")
+ }else{
+    console.log("você NÃO pode dirigir!")
+ }
+
+ let ehprofessor = false;
+ let ehAluno = false;
+
+ if (ehprofessor == true || ehAluno == true){
+    console.log("você tem direito a meia entrada")
+ }else{
+    console.log("você NÃO tem direito a meia entrada")
+ }
+
+ // && = e
+ // || = ou
+
+ // atividade1 Receba um número e informe se ele está entre 10 e 50, inclusive. Caso contrário, informe que está fora do intervalo.
+
+
+ let numero7 = 51
+
+
+ //informar se está dentro do intervalo
+
+ if (numero7 > 10 && numero7 < 50){
+    console.log("está dentro do intervalo")
+ }else{
+    console.log("está fora do intervalo")
+ }
+
+// atividade 2 
+
+let idadeEstagio = 18
+
+
+if (idadeEstagio > 16 && idadeEstagio < 24){
+console.log("atende ao requisito")
+}else{
+    console.log("não atende ao requisito")
+}
+
+
+// atividade 3
+
+let valorcompra = 152
+let ehAssinante = true;
+
+if(valorcompra >= 200 || ehAssinante == true){
+console.log("você tem direito a frete gratis!");
+}else{
+    console.log("você não tem direito a frete gratis")
+}
+
+
+
+
+
+
+//atividade 4
+
+const diasemana = "segunda-feira"
+
+if(diasemana = sabado || domingo){
+    console.log("fim de semana")
+}else{
+    console.log("dia útil")
+}
